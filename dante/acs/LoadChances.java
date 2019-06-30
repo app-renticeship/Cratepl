@@ -1,11 +1,4 @@
-/*
- * Decompiled with CFR 0_123.
- * 
- * Could not load the following classes:
- *  org.bukkit.configuration.ConfigurationSection
- *  org.bukkit.configuration.file.FileConfiguration
- *  org.bukkit.inventory.ItemStack
- */
+
 package me.dante.acs;
 
 import java.util.HashMap;
