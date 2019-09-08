@@ -1,31 +1,4 @@
-/*
- * Decompiled with CFR 0_123.
- * 
- * Could not load the following classes:
- *  org.bukkit.Bukkit
- *  org.bukkit.Effect
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.Server
- *  org.bukkit.Sound
- *  org.bukkit.World
- *  org.bukkit.block.Block
- *  org.bukkit.block.BlockState
- *  org.bukkit.command.CommandExecutor
- *  org.bukkit.command.ConsoleCommandSender
- *  org.bukkit.command.PluginCommand
- *  org.bukkit.configuration.Configuration
- *  org.bukkit.configuration.ConfigurationSection
- *  org.bukkit.configuration.file.FileConfiguration
- *  org.bukkit.configuration.file.FileConfigurationOptions
- *  org.bukkit.entity.Player
- *  org.bukkit.event.Listener
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.PluginLoader
- *  org.bukkit.plugin.PluginManager
- *  org.bukkit.plugin.java.JavaPlugin
- */
+
 package me.dante.acs;
 
 import java.io.File;
@@ -256,22 +229,22 @@ implements Listener {
        /* this.saveDefaultConfig();
         if (!this.checkConfig()) {
             this.getPluginLoader().disablePlugin((Plugin)this);
-            this.getServer().getConsoleSender().sendMessage("§cACS ACS ACS ACS ACS CONFIG ERROR");
-            this.getServer().getConsoleSender().sendMessage("§cACS ACS ACS ACS ACS CONFIG ERROR");
-            this.getServer().getConsoleSender().sendMessage("§cACS ACS ACS ACS ACS CONFIG ERROR");
-            this.getServer().getConsoleSender().sendMessage("§cACS ACS ACS ACS ACS CONFIG ERROR");
-            this.getServer().getConsoleSender().sendMessage("§cCONSULT TO DEVELOPER");
+            this.getServer().getConsoleSender().sendMessage("Â§cACS ACS ACS ACS ACS CONFIG ERROR");
+            this.getServer().getConsoleSender().sendMessage("Â§cACS ACS ACS ACS ACS CONFIG ERROR");
+            this.getServer().getConsoleSender().sendMessage("Â§cACS ACS ACS ACS ACS CONFIG ERROR");
+            this.getServer().getConsoleSender().sendMessage("Â§cACS ACS ACS ACS ACS CONFIG ERROR");
+            this.getServer().getConsoleSender().sendMessage("Â§cCONSULT TO DEVELOPER");
             this.pause(5);
             return;
         }*/
         if (!this.getConfig().getBoolean("EnablePlugin")) {
             this.getPluginLoader().disablePlugin((Plugin)this);
-            this.getServer().getConsoleSender().sendMessage("§cACS FIRST TIME STARTUP");
-            this.getServer().getConsoleSender().sendMessage("§cENABLE PLUGIN IN CONFIG BEFORE START");
-            this.getServer().getConsoleSender().sendMessage("§cACS FIRST TIME STARTUP");
-            this.getServer().getConsoleSender().sendMessage("§cENABLE PLUGIN IN CONFIG BEFORE START");
-            this.getServer().getConsoleSender().sendMessage("§cACS FIRST TIME STARTUP");
-            this.getServer().getConsoleSender().sendMessage("§cENABLE PLUGIN IN CONFIG BEFORE START");
+            this.getServer().getConsoleSender().sendMessage("Â§cACS FIRST TIME STARTUP");
+            this.getServer().getConsoleSender().sendMessage("Â§cENABLE PLUGIN IN CONFIG BEFORE START");
+            this.getServer().getConsoleSender().sendMessage("Â§cACS FIRST TIME STARTUP");
+            this.getServer().getConsoleSender().sendMessage("Â§cENABLE PLUGIN IN CONFIG BEFORE START");
+            this.getServer().getConsoleSender().sendMessage("Â§cACS FIRST TIME STARTUP");
+            this.getServer().getConsoleSender().sendMessage("Â§cENABLE PLUGIN IN CONFIG BEFORE START");
             this.pause(5);
             return;
         }
